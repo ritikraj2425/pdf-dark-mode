@@ -147,5 +147,9 @@ export function FileViewer({ file }: FileViewerProps) {
       </div>
     );
   }
-  return <p className="text-center p-4">Unsupported file type</p>;
-}
+  return (
+    <div className="fixed top-0 left-0 right-0 bg-white p-4 shadow-md">
+      <p className="text-center text-red-500">Unsupported file type</p>
+    </div>
+  )
+  }
