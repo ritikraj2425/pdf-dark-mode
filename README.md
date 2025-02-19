@@ -1,1 +1,2 @@
 # demo
+# pdf-dark-mode
